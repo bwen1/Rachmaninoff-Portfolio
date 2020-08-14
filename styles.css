@@ -1,95 +1,191 @@
+
 /* ===== Header ===== */
-.menu-area li a {
-  text-decoration: none;
-}
-
-.menu-area li {
-  list-style-type: none;
-}
-
-
 
 nav {
   width:100%;
-  padding: 15px 5px;
-  background: rgb(255, 255, 255);
-  align-content: center;
-  align-self: center;
-
-}
-
-.menu-area {
-  padding-bottom: 30px;
+  padding: 5% 1%;
+  background: #BFA27E;
 }
 
 .menu-area li {
   display: inline-block;
-
 }
 
 .menu-area a {
+  text-decoration: none;
   color: rgb(0, 0, 0);
-  font-weight: 300;
-  letter-spacing: 1px;
+  font-weight: 550;
+  letter-spacing: 2px;
   text-transform: uppercase;
   display: block;
-
-  padding: 0 25px;
-  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 22px;
+  font-size: 100%;
   line-height: 30px;
-
-}
-.menu-area a:hover {
-  background: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
 }
 
+.menu-area a:hover, .menu-area a:active {
+  background:#8c7456;
+  color:white;
+}
 
 /* ===== Background ===== */
+
 * {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  background: #BFA27E
 }
-body {
 
+.banner {
+  width: 100%;
 }
 
 /* ===== Footer ===== */
-footer {
-  position: fixed;
 
+footer {
+  position: relative;
   bottom: 0;
   width: 100%;
-  background:#333;
-  color: #fff;
-  text-align: left;
+
+  padding: 10%;
+  text-align: center;
+}
+
+.logo {
+  padding-left:6%;
+  padding-right:6%;
+
 }
 
 /* ===== Home Page ===== */
-#introduction {
-  background-image: url(background.png);
-  background-size:cover;
-  background-position: center center;
-  height: 40vh;
-}
+
 #portrait {
   display:block;
-  margin-top:10%;
+  margin-top:0%;
   margin-left:auto;
   margin-right:auto;
-  width: 50%;
-  border-radius: 50%;
+  width: 70%;
+  border-radius: 5%;
+  height: 40%;
 
 }
 
 #name {
-  display:block;
-  margin-top:10%;
-  margin-left:auto;
-  margin-right:auto;
-  color: #fff;
-  font-size: 200%;
+  text-decoration: none;
+  padding-top: 10%;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+  font-size: 150%;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
 }
 
+#dob {
+  text-decoration: none;
+  padding-top: 5%;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+  font-size: 100%;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#intro {
+  text-decoration: none;
+  padding: 5%;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+  font-size: 105%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ===== Works Page ===== */
+
+
+
+.works {
+  width:95%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.piecename {
+  display:inline-block;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 550;
+  text-align: center;
+  color: black;
+  font-size: 100%;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#filler {
+  height: 130px;
+}
+
+/* ===== Contact Page ===== */
+
+#heading {
+  margin: 5%;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+  font-size: 150%;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#contact {
+  padding: 5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+input {
+  font-family: 'Roboto', sans-serif;
+  width: 95%;
+  padding: 10px;
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: white
+}
+
+textarea {
+  font-family: 'Roboto', sans-serif;
+  width: 95%;
+  display: block;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: white
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 2%;
+}
+
+#button {
+  background-color: #8C7456;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  position: absolute;
+  left: 30%
+}
