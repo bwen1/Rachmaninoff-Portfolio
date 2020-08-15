@@ -3,16 +3,18 @@
 <title>Rachmaninoff</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <link rel="stylesheet" href="styles.css">
 
-    <nav class="navigation">
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+    <img class="banner" src="/images/works.png" alt="Banner">
+    <nav>
         <ul class="menu-area">
             <li>
                 <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="works.html">Works</a>
+                <a href="works.html">| Works |</a>
             </li>
             <li>
                 <a href="contact.html">Contact</a>
@@ -24,25 +26,45 @@
 </head>
 
 <body id="workspage">
-    <img class="banner" src="/images/banner.png" alt="Banner">
-    <div class="works">
-        <h class="piecename">Prelude Op. 3 No. 2</h>
-        <iframe width="100%" src="https://www.youtube.com/embed/ZcG-DnGdWRw">
-        </iframe>
-        <h class="piecename">Piano Concerto No. 2</h>
-        <iframe width="100%" src="https://www.youtube.com/embed/pBx-tr1FDvY">
-        </iframe>
-        <h class="piecename">Prelude Op. 23 No. 5</h>
-        <iframe width="100%" src="https://www.youtube.com/embed/M8RyWFA7PSY">
-        </iframe>
-        <h class="piecename">Piano concerto No. 3</h>
-        <iframe width="100%" src="https://www.youtube.com/embed/2uqZhnqHMAg">
-        </iframe>
-        <h class="piecename">Etude Op. 39 No. 6</h>
-        <iframe width="100%" src="https://www.youtube.com/embed/GUb6Jsnepe4">
-        </iframe>
-    </div>
+    <div class="background">
+        <div class="works">
+            <h class="piecename">Prelude Op. 3 No. 2</h>
+            <p class="piecedescription">Also known as 'The Bells of Moscow', this piece is the second part of a set of five 'Morceaux de fantaise' pieces.
+                This prelude is one of Rachmaninoff's most famous compositions and is so popular such that Rachmaninoff grew
+                tired of performing this piece as an encore at his recitals.
+            </p>
+            <iframe width="100%" src="https://www.youtube.com/embed/ZcG-DnGdWRw">
+            </iframe>
+            <p>_________________________________________</p>
+            <h class="piecename">Piano Concerto No. 2</h>
+            <p class="piecedescription">Dedicated to Nikolai Dahl, this piece signifies Rachmaninoff's recovery from his depression which resulted from
+                the disastrous premier of his first symphony. Winning a Glinka Award, this concerto is his most famous concerto.
+            </p>
+            <iframe width="100%" src="https://www.youtube.com/embed/pBx-tr1FDvY">
+            </iframe>
+            <p>_________________________________________</p>
+            <h class="piecename">Prelude Op. 23 No. 5</h>
+            <p class="piecedescription">Written for his Opus 23 set of ten preludes, this prelude is structured in ternary ABA form. Beginning with a
+                march like Alla marcia section, the B section consists of a lyrical appregiated melody, before returning
+                to a recapitulation of the march section. Along with Prelude Op. 3 No. 2, these two preludes are probably
+                his most played and recited preludes today.
+            </p>
+            <iframe width="100%" src="https://www.youtube.com/embed/M8RyWFA7PSY">
+            </iframe>
+            <p>_________________________________________</p>
+            <h class="piecename">Piano concerto No. 3</h>
+            <p class="piecedescription">Dedicated to Josef Hofmann, this concerto is revered as one of the most difficult piano concertos ever written
+                and also considered by Rachmaninoff to be his favourite concerto. Rachmaninoff's first performance is in
+                New York City where his only prior practice was on a silent piano en route to the United States from Russia
+                due to time constraints. This concerto is structured into three movements, starting in a sonata-allegro form
+                before transitioning to a 'theme and variations' ABACA style movement then transitioning without pause to
+                the finale.
+            </p>
+            <iframe width="100%" src="https://www.youtube.com/embed/2uqZhnqHMAg">
+            </iframe>
 
+        </div>
+    </div>
     <div id="filler" />
 
 
@@ -50,19 +72,18 @@
 
 </body>
 <footer>
-
-    <a href="https://en.wikipedia.org/wiki/Sergei_Rachmaninoff" class="logo">
-        <img src="/images/wikipedia.png" width="50" height="50" title="Wikipedia">
-    </a>
-
-    <a href="https://www.youtube.com/watch?v=S2qwvYKbpGw&list=OLAK5uy_mVwk35Pp8UT37G4x3YOQBSKZKc6Dsz1Y8&index=1" class="logo">
-        <img src="/images/youtube.png" width="50" height="50" title="Youtube">
-    </a>
-
-    <a href="https://www.steinway.com/artists/sergei-rachmaninoff" class="logo">
-        <img src="/images/steinway.png" width="50" height="50" title="Youtube">
-    </a>
-
+    <div class="logos">
+        <a href="https://www.steinway.com/artists/sergei-rachmaninoff " class="logo ">
+            <img src="/images/steinway.png " width="60 " height="60 " title="Youtube ">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Sergei_Rachmaninoff " class="logo ">
+            <img src="/images/wikipedia.png " width="60 " height="60 " title="Wikipedia ">
+        </a>
+        <a href="https://www.youtube.com/watch?v=S2qwvYKbpGw&list=OLAK5uy_mVwk35Pp8UT37G4x3YOQBSKZKc6Dsz1Y8&index=1
+            " class="logo ">
+            <img src="/images/youtube.png " width="60 " height="60 " title="Youtube ">
+        </a>
+    </div>
 </footer>
 
 </html>

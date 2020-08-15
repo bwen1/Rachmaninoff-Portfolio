@@ -1,27 +1,35 @@
 
 /* ===== Header ===== */
 
-nav {
+#divnav {
   width:100%;
-  padding: 5% 1%;
-  background: #BFA27E;
+
+  text-align: center;
+}
+
+.menu-area {
+padding-left: 5%;
+padding-right: 5%;
 }
 
 .menu-area li {
   display: inline-block;
-}
+  margin-left: auto;
+    margin-right: auto; 
+  }
+
 
 .menu-area a {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  font-weight: 550;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
   display: block;
-  font-family: 'Roboto', sans-serif;
-  padding: 0 22px;
-  font-size: 100%;
-  line-height: 30px;
+  font-family: 'Bilbo Swash Caps', cursive;
+
+  padding: 0 4px;
+  font-size: 35px;
+  line-height:40px;
 }
 
 .menu-area a:hover, .menu-area a:active {
@@ -31,78 +39,76 @@ nav {
 
 /* ===== Background ===== */
 
-* {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: border-box;
-  background: #BFA27E
+.background {
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  background-color: rgb(228, 216, 201);
+  
+
 }
 
 .banner {
-  width: 100%;
+width:95%;
+  border-radius: 5px;
+  display: block;
+  margin:auto;
 }
+
 
 /* ===== Footer ===== */
 
-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
 
-  padding: 10%;
-  text-align: center;
+.logos {
+  margin-top:35px;
+  width:95%;
+  margin-left:10px;
 }
 
 .logo {
-  padding-left:6%;
-  padding-right:6%;
+  padding-left:7%;
+  padding-right:7%;
 
 }
+
 
 /* ===== Home Page ===== */
 
 #portrait {
-  display:block;
-  margin-top:0%;
-  margin-left:auto;
-  margin-right:auto;
-  width: 70%;
-  border-radius: 5%;
-  height: 40%;
+display: inline-block;
+ margin-top: 5%;
+ margin-left:25%;
+ margin-right:25%;
+ width:50%;
+
 
 }
 
 #name {
+  display:inline-block;
   text-decoration: none;
-  padding-top: 10%;
+  margin-top:10px;
   font-weight: 300;
+  width: 100%;
   text-align: center;
   color: black;
-  font-size: 150%;
-  letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
-}
-
-#dob {
-  text-decoration: none;
-  padding-top: 5%;
-  font-weight: 300;
-  text-align: center;
-  color: black;
-  font-size: 100%;
-  letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: 'Bilbo Swash Caps', cursive;
 }
 
 #intro {
+  display:inline-block;
   text-decoration: none;
+  margin-top: -30px;
   padding: 5%;
   font-weight: 300;
   text-align: center;
   color: black;
-  font-size: 105%;
-  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-family: 'Libre Caslon Display', serif;
 }
 
 /* ===== Works Page ===== */
@@ -120,39 +126,32 @@ footer {
   display:inline-block;
   text-decoration: none;
   padding-top: 10px;
-  padding-bottom: 10px;
   font-weight: 550;
   text-align: center;
   color: black;
-  font-size: 100%;
+  font-size: 20px;
   letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Libre Caslon Display', serif;
+}
+
+.piecedescription {
+  margin-top:5px;
+  font-family: 'Libre Caslon Display', serif;
 }
 
 #filler {
-  height: 130px;
+  height: 80px;
 }
 
 /* ===== Contact Page ===== */
 
-#heading {
-  margin: 5%;
-  font-weight: 300;
-  text-align: center;
-  color: black;
-  font-size: 150%;
-  letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
-}
-
-#contact {
-  padding: 5%;
-  font-family: 'Roboto', sans-serif;
+.contacts {
+  padding-top:20px;
 }
 
 input {
-  font-family: 'Roboto', sans-serif;
-  width: 95%;
+  font-family: 'Libre Caslon Display', serif;
+  width: 85%;
   padding: 10px;
   display: block;
   margin: 10px auto;
@@ -162,8 +161,8 @@ input {
 }
 
 textarea {
-  font-family: 'Roboto', sans-serif;
-  width: 95%;
+  font-family: 'Libre Caslon Display', serif;
+  width: 85%;
   display: block;
   padding: 10px;
   margin: 10px auto;
@@ -173,19 +172,21 @@ textarea {
 }
 
 label {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Libre Caslon Display', serif;
   padding-left: 2%;
+  font-size:20px;
 }
 
 #button {
   background-color: #8C7456;
-  font-family: 'Roboto', sans-serif;
-  border: none;
+  font-family: 'Libre Caslon Display', serif;
+  border-radius:3px;
   color: white;
   padding: 15px 20px;
-  margin-top: 20px;
+  margin-top: 15px;
   text-decoration: none;
-  font-size: 16px;
-  position: absolute;
-  left: 30%
+  font-size: 18px;
+  margin-left:30%;
+  margin-bottom:15px;
+
 }
